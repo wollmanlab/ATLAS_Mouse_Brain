@@ -1,0 +1,19 @@
+conda create -n "ATLAS_3.9" python=3.9.0
+# pip install -e /home/zach/PythonRepos/PyImages/
+# pip install -e /home/zach/PythonRepos/ATLAS_Mouse_Brain/
+pip install scanpy==1.9.3
+pip install cellpose==3.0.4
+pip install igraph==0.10.6
+pip install pynndescent==0.5.5
+pip install Shapely==1.8.2
+pip install dill==0.3.4
+pip install pynrrd==0.4.2
+pip install datashader==0.16.0
+pip install umap-learn==0.5.3
+pip install ashlar==1.17.0
+pip install rasterio==1.2.10
+pip install louvain==0.8.1
+pip uninstall torch
+conda install pytorch=1.13.0 torchvision=0.14.0 torchaudio=0.13.0 cudatoolkit=11.3 -c pytorch
+pip install numpy==1.23.3
+pip install scikit-image==0.19.3
